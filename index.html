@@ -1,0 +1,824 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme:
+        {
+          extend:
+          {
+            colors:
+            {
+              primary: '#0066FF',
+              secondary: '#00C2FF',
+              xhs: '#FE2C55',
+              dark: '#0A1628',
+              light: '#F8FAFC'
+            },
+            fontFamily:
+            {
+              sans: ['Inter', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <script>
+      window.FontAwesomeConfig = {
+        autoReplaceSvg: 'nest'
+      };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+      ::-webkit-scrollbar
+      {
+        display: none;
+      }
+    </style>
+    <style data-grapesjs-styles="true">
+      *
+      {
+        box-sizing: border-box;
+      }
+
+      body
+      {
+        margin: 0;
+      }
+
+      ::-webkit-scrollbar
+      {
+        display: none;
+      }
+
+      #header
+      {
+        position: static;
+      }
+    </style>
+  </head>
+
+  <body class="font-sans antialiased bg-white">
+    <header id="header" class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+      <nav class="max-w-7xl mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <div class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+              <i class="fa-solid fa-comments text-white text-xl"></i></div><span class="text-2xl font-bold text-dark">Whispabot</span>
+          </div>
+          <div class="hidden md:flex items-center space-x-8"><a href="#home" class="text-dark hover:text-primary transition-colors font-medium">Home</a><a href="#solutions" class="text-dark hover:text-primary transition-colors font-medium">Solutions</a><a href="#industries" class="text-dark hover:text-primary transition-colors font-medium">Industries</a><a href="#features" class="text-dark hover:text-primary transition-colors font-medium">Features</a><a href="#about" class="text-dark hover:text-primary transition-colors font-medium">About</a><a href="#contact" class="text-dark hover:text-primary transition-colors font-medium">Contact</a>
+          </div>
+          <div class="flex items-center space-x-4"><button class="hidden md:block px-6 py-2.5 text-primary font-semibold hover:bg-primary/5 rounded-lg transition-all">
+              Contact Us
+            </button><button class="px-6 py-2.5 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+              Book a Demo
+            </button></div>
+        </div>
+      </nav>
+    </header>
+    
+    <main id="hero-section" class="pt-24 bg-cover bg-center bg-no-repeat relative h-[800px] flex items-center" style="background-image: linear-gradient(rgba(10, 22, 40, 0.7), rgba(0, 102, 255, 0.3)), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 800%22><defs><linearGradient id=%22grad%22 x1=%220%25%22 y1=%220%25%22 x2=%22100%25%22 y2=%22100%25%22><stop offset=%220%25%22 style=%22stop-color:%23f8fafc;stop-opacity:1%22 /><stop offset=%2250%25%22 style=%22stop-color:%23ffffff;stop-opacity:1%22 /><stop offset=%22100%25%22 style=%22stop-color:%23dbeafe;stop-opacity:1%22 /></linearGradient></defs><rect width=%221200%22 height=%22800%22 fill=%22url(%23grad)%22/><circle cx=%22300%22 cy=%22200%22 r=%2280%22 fill=%22%230066FF%22 opacity=%220.1%22/><circle cx=%22900%22 cy=%22600%22 r=%22120%22 fill=%22%2300C2FF%22 opacity=%220.08%22/><polygon points=%22600,100 700,300 500,300%22 fill=%22%23FE2C55%22 opacity=%220.06%22/></svg>');">
+  <img class="absolute inset-0 w-full h-full object-cover opacity-20 z-0" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/65cb165684-8ff1cf69e0622241ef67.png" alt="modern business messaging technology background with connected devices, chat bubbles, digital communication networks, tech workspace">
+  <div class="absolute inset-0 bg-gradient-to-br from-dark/70 via-primary/20 to-secondary/30 z-10"></div>
+  
+  <div class="max-w-7xl mx-auto px-6 py-12 md:py-20 relative z-20">
+    <div class="grid lg:grid-cols-1 gap-16 items-center text-center lg:text-left">
+      <div class="space-y-6 md:space-y-8 max-w-4xl mx-auto lg:mx-0">
+        <div class="inline-block px-4 py-2 bg-primary/20 backdrop-blur-sm rounded-full border border-primary/30">
+          <span class="text-white font-semibold text-sm">🚀 Now Supporting Xiaohongshu (小红书)</span>
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight">
+          TURNING<br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary">CONVERSATION</span><br>
+          INTO CONVERSION
+        </h1>
+        
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-200">
+          SUPERCHARGE CUSTOMER ENGAGEMENT
+        </h2>
+        
+        <p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+          Now supporting Xiaohongshu (小红书) official account registration, Chinese content ads, and omni-channel remarketing.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start">
+          <button class="px-6 md:px-8 py-3 md:py-4 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-xl shadow-primary/30 text-base md:text-lg backdrop-blur-sm">
+            <i class="fa-solid fa-calendar-check mr-2"></i>
+            BOOK A DEMO
+          </button>
+          <button class="px-6 md:px-8 py-3 md:py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl hover:bg-white/20 transition-all border-2 border-white/30 text-base md:text-lg">
+            <i class="fa-solid fa-envelope mr-2"></i>
+            CONTACT US
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+    <section id="value-proposition" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div class="text-center group hover:transform hover:scale-105 transition-all">
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center shadow-xl shadow-primary/20 group-hover:shadow-2xl group-hover:shadow-primary/30 transition-all">
+              <i class="fa-solid fa-bolt text-white text-3xl"></i></div>
+            <h3 class="text-xl font-bold text-dark mb-3">Instant Engagement</h3>
+            <p class="text-gray-600">Real-time customer interactions across all
+              messaging channels</p>
+          </div>
+          <div class="text-center group hover:transform hover:scale-105 transition-all">
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-xl shadow-purple-500/20 group-hover:shadow-2xl group-hover:shadow-purple-500/30 transition-all">
+              <i class="fa-solid fa-diagram-project text-white text-3xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-dark mb-3">Built-In Workflows</h3>
+            <p class="text-gray-600">Pre-configured automation for seamless
+              customer journeys</p>
+          </div>
+          <div class="text-center group hover:transform hover:scale-105 transition-all">
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center shadow-xl shadow-green-500/20 group-hover:shadow-2xl group-hover:shadow-green-500/30 transition-all">
+              <i class="fa-solid fa-industry text-white text-3xl"></i></div>
+            <h3 class="text-xl font-bold text-dark mb-3">Industry Ready</h3>
+            <p class="text-gray-600">Tailored solutions for aviation, retail,
+              and digital services</p>
+          </div>
+          <div class="text-center group hover:transform hover:scale-105 transition-all">
+            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-xhs to-red-400 rounded-2xl flex items-center justify-center shadow-xl shadow-xhs/20 group-hover:shadow-2xl group-hover:shadow-xhs/30 transition-all">
+              <i class="fa-brands fa-weixin text-white text-3xl"></i></div>
+            <h3 class="text-xl font-bold text-dark mb-3">XHS Official Account
+              &amp; Chinese Ads</h3>
+            <p class="text-gray-600">Full Xiaohongshu integration for Chinese
+              market engagement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="industries" class="py-24 bg-gradient-to-br from-light to-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-5xl font-black text-dark mb-6">Industry Solutions</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">Tailored messaging
+            solutions designed for your specific industry needs with powerful
+            automation and engagement tools</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div id="aviation-card" class="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all overflow-hidden group">
+            <div class="h-64 overflow-hidden"><img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/a1c3165465-2481dc9bbd1e2bbeb500.png" alt="modern airport terminal with aircraft, digital check-in screens, passengers with smartphones, aviation technology" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+            </div>
+            <div class="p-8">
+              <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
+                <i class="fa-solid fa-plane-departure text-primary text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-dark mb-4">Aviation</h3>
+              <ul class="space-y-3 mb-6">
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Mobile check-in &amp; boarding pass
+                    delivery</span></li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Seat upgrade promotions via rich
+                    messaging</span></li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">In-flight WiFi upsell
+                    automation</span></li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Real-time flight updates &amp;
+                    notifications</span></li>
+              </ul><a href="#" class="inline-flex items-center text-primary font-semibold hover:text-primary/80 transition-colors">
+                Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+          <div id="retail-card" class="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all overflow-hidden group">
+            <div class="h-64 overflow-hidden"><img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/4a1016cbbf-21caaf8c15a623080c6b.png" alt="modern retail store with digital displays, customers shopping with smartphones, personalized shopping experience, Chinese customers" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+            </div>
+            <div class="p-8">
+              <div class="w-14 h-14 bg-purple-500/10 rounded-xl flex items-center justify-center mb-4">
+                <i class="fa-solid fa-store text-purple-500 text-2xl"></i></div>
+              <h3 class="text-2xl font-bold text-dark mb-4">Retail</h3>
+              <ul class="space-y-3 mb-6">
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Personalized product promotions</span>
+                </li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Chinese customer targeting via
+                    XHS</span></li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Abandoned cart recovery
+                    workflows</span></li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Loyalty program integration &amp;
+                    rewards</span></li>
+              </ul><a href="#" class="inline-flex items-center text-purple-500 font-semibold hover:text-purple-500/80 transition-colors">
+                Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+          <div id="digital-services-card" class="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all overflow-hidden group">
+            <div class="h-64 overflow-hidden"><img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/88db9c5e3d-f2049ae391fbb895ac20.png" alt="digital services workspace with laptops, cloud computing, customer support chat interfaces, automation dashboard" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+            </div>
+            <div class="p-8">
+              <div class="w-14 h-14 bg-secondary/10 rounded-xl flex items-center justify-center mb-4">
+                <i class="fa-solid fa-cloud text-secondary text-2xl"></i></div>
+              <h3 class="text-2xl font-bold text-dark mb-4">Digital Services
+              </h3>
+              <ul class="space-y-3 mb-6">
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Automated customer onboarding</span>
+                </li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">24/7 support automation &amp;
+                    ticketing</span></li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Chinese audience retargeting
+                    campaigns</span></li>
+                <li class="flex items-start space-x-3"><i class="fa-solid fa-check text-green-500 mt-1"></i><span class="text-gray-600">Service renewal reminders &amp;
+                    upsells</span></li>
+              </ul><a href="#" class="inline-flex items-center text-secondary font-semibold hover:text-secondary/80 transition-colors">
+                Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="xhs-engagement" class="py-24 bg-gradient-to-br from-red-50 via-white to-pink-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <div class="inline-block px-6 py-3 bg-xhs/10 rounded-full mb-6"><span class="text-xhs font-bold text-lg">🇨🇳 Xiaohongshu (小红书)
+              Integration</span></div>
+          <h2 class="text-5xl font-black text-dark mb-6">XHS Cross-Border
+            Engagement</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">Complete solution
+            for reaching and converting Chinese-speaking audiences through
+            Xiaohongshu's powerful platform</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div id="xhs-card-1" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 border-2 border-transparent hover:border-xhs/20">
+            <div class="w-16 h-16 bg-gradient-to-br from-xhs to-red-400 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-xhs/30">
+              <i class="fa-solid fa-certificate text-white text-2xl"></i></div>
+            <h3 class="text-xl font-bold text-dark mb-4">Official Account
+              Registration</h3>
+            <p class="text-gray-600 mb-4">XHS 认证账号</p>
+            <p class="text-gray-700 leading-relaxed">We help brands set up and
+              verify their official XHS account in Chinese, ensuring full
+              compliance and authenticity.</p>
+            <div class="mt-6 pt-6 border-t border-gray-100">
+              <div class="flex items-center space-x-2 text-sm text-gray-500"><i class="fa-solid fa-check-circle text-green-500"></i><span>Full
+                  verification support</span></div>
+            </div>
+          </div>
+          <div id="xhs-card-2" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 border-2 border-transparent hover:border-xhs/20">
+            <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-orange-500/30">
+              <i class="fa-solid fa-pen-nib text-white text-2xl"></i></div>
+            <h3 class="text-xl font-bold text-dark mb-4">Chinese Content
+              Creation</h3>
+            <p class="text-gray-600 mb-4">中文内容发布</p>
+            <p class="text-gray-700 leading-relaxed">Create and publish Mandarin
+              content designed for Chinese-speaking audiences with cultural
+              relevance and engagement.</p>
+            <div class="mt-6 pt-6 border-t border-gray-100">
+              <div class="flex items-center space-x-2 text-sm text-gray-500"><i class="fa-solid fa-check-circle text-green-500"></i><span>Native
+                  content strategy</span></div>
+            </div>
+          </div>
+          <div id="xhs-card-3" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 border-2 border-transparent hover:border-xhs/20">
+            <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-purple-500/30">
+              <i class="fa-solid fa-bullseye text-white text-2xl"></i></div>
+            <h3 class="text-xl font-bold text-dark mb-4">Precision Targeting
+              &amp; Ads</h3>
+            <p class="text-gray-600 mb-4">精准广告投放</p>
+            <p class="text-gray-700 leading-relaxed">Run targeted ads on XHS
+              based on interest, demographics, and lifestyle categories to reach
+              your ideal Chinese customers.</p>
+            <div class="mt-6 pt-6 border-t border-gray-100">
+              <div class="flex items-center space-x-2 text-sm text-gray-500"><i class="fa-solid fa-check-circle text-green-500"></i><span>Advanced
+                  audience targeting</span></div>
+            </div>
+          </div>
+          <div id="xhs-card-4" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 border-2 border-transparent hover:border-xhs/20">
+            <div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-primary/30">
+              <i class="fa-solid fa-repeat text-white text-2xl"></i></div>
+            <h3 class="text-xl font-bold text-dark mb-4">Omni-Channel
+              Retargeting</h3>
+            <p class="text-gray-600 mb-4">全渠道再营销</p>
+            <p class="text-gray-700 leading-relaxed">Retarget users who
+              interacted with your XHS content across WhatsApp, RCS, SMS, and
+              other channels for higher conversions.</p>
+            <div class="mt-6 pt-6 border-t border-gray-100">
+              <div class="flex items-center space-x-2 text-sm text-gray-500"><i class="fa-solid fa-check-circle text-green-500"></i><span>Multi-platform
+                  remarketing</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-16 bg-white rounded-3xl shadow-2xl overflow-hidden">
+          <div class="grid md:grid-cols-2 gap-0">
+            <div class="p-12 flex flex-col justify-center">
+              <h3 class="text-3xl font-bold text-dark mb-6">See XHS Integration
+                in Action</h3>
+              <p class="text-lg text-gray-600 mb-8 leading-relaxed">Our platform
+                seamlessly connects your XHS presence with your messaging
+                channels, creating a unified customer journey from discovery to
+                conversion.</p>
+              <ul class="space-y-4">
+                <li class="flex items-start space-x-3">
+                  <div class="w-6 h-6 bg-xhs/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i class="fa-solid fa-check text-xhs text-xs"></i></div>
+                  <span class="text-gray-700">Unified dashboard for XHS and
+                    messaging analytics</span>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <div class="w-6 h-6 bg-xhs/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i class="fa-solid fa-check text-xhs text-xs"></i></div>
+                  <span class="text-gray-700">Automated workflow triggers from
+                    XHS interactions</span>
+                </li>
+                <li class="flex items-start space-x-3">
+                  <div class="w-6 h-6 bg-xhs/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i class="fa-solid fa-check text-xhs text-xs"></i></div>
+                  <span class="text-gray-700">Real-time synchronization across
+                    all channels</span>
+                </li>
+              </ul>
+            </div>
+            <div class="h-full overflow-hidden bg-gradient-to-br from-xhs/5 to-pink-50">
+              <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/cbde388711-50e0b5f507b4e1ebacc4.png" alt="Xiaohongshu XHS mobile interface showing Chinese lifestyle posts, product recommendations, social commerce features, red theme UI with Chinese text" class="w-full h-full object-cover"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-5xl font-black text-dark mb-6">How It Works</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">Two powerful
+            workflows designed to maximize engagement and drive conversions
+            across all touchpoints</p>
+        </div>
+        <div class="space-y-16">
+          <div id="workflow-a" class="bg-gradient-to-br from-blue-50 to-white rounded-3xl shadow-xl p-12">
+            <div class="flex items-center space-x-4 mb-8">
+              <div class="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
+                <span class="text-white font-bold text-xl">A</span></div>
+              <h3 class="text-3xl font-bold text-dark">Rich Business Messaging
+                Workflow</h3>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+              <div class="relative">
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all">
+                  <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-rocket text-white text-2xl"></i></div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">
+                    Trigger</h4>
+                  <p class="text-gray-600 text-sm text-center">Customer action
+                    initiates automated workflow</p>
+                </div>
+                <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2">
+                  <i class="fa-solid fa-arrow-right text-primary text-2xl"></i>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all">
+                  <div class="w-14 h-14 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-message text-white text-2xl"></i>
+                  </div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">Rich
+                    Message</h4>
+                  <p class="text-gray-600 text-sm text-center">Interactive
+                    content delivered instantly</p>
+                </div>
+                <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2">
+                  <i class="fa-solid fa-arrow-right text-primary text-2xl"></i>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all">
+                  <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-hand-pointer text-white text-2xl"></i>
+                  </div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">
+                    Customer Action</h4>
+                  <p class="text-gray-600 text-sm text-center">User engages with
+                    message content</p>
+                </div>
+                <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2">
+                  <i class="fa-solid fa-arrow-right text-primary text-2xl"></i>
+                </div>
+              </div>
+              <div>
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all">
+                  <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-check-double text-white text-2xl"></i>
+                  </div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">
+                    Fulfillment</h4>
+                  <p class="text-gray-600 text-sm text-center">Automated
+                    completion &amp; follow-up</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="workflow-b" class="bg-gradient-to-br from-red-50 to-white rounded-3xl shadow-xl p-12">
+            <div class="flex items-center space-x-4 mb-8">
+              <div class="w-12 h-12 bg-xhs rounded-xl flex items-center justify-center">
+                <span class="text-white font-bold text-xl">B</span></div>
+              <h3 class="text-3xl font-bold text-dark">XHS Omni-Channel Funnel
+              </h3>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+              <div class="relative">
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all border-2 border-xhs/20">
+                  <div class="w-14 h-14 bg-gradient-to-br from-xhs to-red-400 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-eye text-white text-2xl"></i></div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">XHS
+                    Ad View</h4>
+                  <p class="text-gray-600 text-sm text-center">User discovers
+                    content on Xiaohongshu</p>
+                </div>
+                <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2">
+                  <i class="fa-solid fa-arrow-right text-xhs text-2xl"></i>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all border-2 border-xhs/20">
+                  <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-heart text-white text-2xl"></i></div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">User
+                    Interaction</h4>
+                  <p class="text-gray-600 text-sm text-center">Engagement
+                    tracked &amp; analyzed</p>
+                </div>
+                <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2">
+                  <i class="fa-solid fa-arrow-right text-xhs text-2xl"></i>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all border-2 border-xhs/20">
+                  <div class="w-14 h-14 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-comments text-white text-2xl"></i>
+                  </div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">
+                    Retarget Messaging</h4>
+                  <p class="text-gray-600 text-sm text-center">Follow-up via
+                    WhatsApp, RCS, SMS</p>
+                </div>
+                <div class="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2">
+                  <i class="fa-solid fa-arrow-right text-xhs text-2xl"></i>
+                </div>
+              </div>
+              <div>
+                <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all border-2 border-xhs/20">
+                  <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                    <i class="fa-solid fa-shopping-cart text-white text-2xl"></i>
+                  </div>
+                  <h4 class="text-lg font-bold text-dark mb-2 text-center">
+                    Conversion</h4>
+                  <p class="text-gray-600 text-sm text-center">Sale completed
+                    across channels</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features" class="py-24 bg-gradient-to-br from-light to-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-5xl font-black text-dark mb-6">Powerful Features</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">Everything you need
+            to transform customer conversations into conversions with
+            cutting-edge messaging technology</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div id="feature-1" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 group">
+            <div class="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-primary/20">
+              <i class="fa-solid fa-message-lines text-white text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-dark mb-4">Rich Messaging</h3>
+            <p class="text-gray-600 leading-relaxed">Deliver interactive,
+              media-rich messages with carousels, buttons, forms, and dynamic
+              content that drives engagement.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">WhatsApp</span><span class="px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">RCS</span><span class="px-3 py-1 bg-primary/10 text-primary text-xs font-semibold rounded-full">SMS</span>
+            </div>
+          </div>
+          <div id="feature-2" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 group">
+            <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-purple-500/20">
+              <i class="fa-solid fa-diagram-project text-white text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-dark mb-4">Built-In Workflows
+            </h3>
+            <p class="text-gray-600 leading-relaxed">Pre-configured automation
+              workflows for common use cases with drag-and-drop customization
+              and advanced logic.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-purple-500/10 text-purple-500 text-xs font-semibold rounded-full">Automation</span><span class="px-3 py-1 bg-purple-500/10 text-purple-500 text-xs font-semibold rounded-full">No-Code</span>
+            </div>
+          </div>
+          <div id="feature-3" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 group">
+            <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-green-500/20">
+              <i class="fa-solid fa-layer-group text-white text-2xl"></i></div>
+            <h3 class="text-2xl font-bold text-dark mb-4">Industry Ready
+              Templates</h3>
+            <p class="text-gray-600 leading-relaxed">Professionally designed
+              templates for aviation, retail, and digital services with proven
+              conversion optimization.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-green-500/10 text-green-500 text-xs font-semibold rounded-full">Templates</span><span class="px-3 py-1 bg-green-500/10 text-green-500 text-xs font-semibold rounded-full">Customizable</span>
+            </div>
+          </div>
+          <div id="feature-4" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 group">
+            <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-orange-500/20">
+              <i class="fa-solid fa-gauge-high text-white text-2xl"></i></div>
+            <h3 class="text-2xl font-bold text-dark mb-4">Faster Conversions
+            </h3>
+            <p class="text-gray-600 leading-relaxed">Reduce friction in the
+              customer journey with instant responses, one-click actions, and
+              seamless payment integration.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-orange-500/10 text-orange-500 text-xs font-semibold rounded-full">Speed</span><span class="px-3 py-1 bg-orange-500/10 text-orange-500 text-xs font-semibold rounded-full">Optimization</span>
+            </div>
+          </div>
+          <div id="feature-5" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 group border-2 border-xhs/20">
+            <div class="w-16 h-16 bg-gradient-to-br from-xhs to-red-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-xhs/20">
+              <i class="fa-brands fa-weixin text-white text-2xl"></i></div>
+            <h3 class="text-2xl font-bold text-dark mb-4">XHS Official Account
+              Setup</h3>
+            <p class="text-gray-600 leading-relaxed">Complete Xiaohongshu
+              account registration, verification, and setup with native Chinese
+              language support and compliance.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-xhs/10 text-xhs text-xs font-semibold rounded-full">小红书</span><span class="px-3 py-1 bg-xhs/10 text-xhs text-xs font-semibold rounded-full">Verified</span>
+            </div>
+          </div>
+          <div id="feature-6" class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 group border-2 border-xhs/20">
+            <div class="w-16 h-16 bg-gradient-to-br from-pink-500 to-xhs rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-pink-500/20">
+              <i class="fa-solid fa-bullseye text-white text-2xl"></i></div>
+            <h3 class="text-2xl font-bold text-dark mb-4">Chinese Ads +
+              Omni-Channel Remarketing</h3>
+            <p class="text-gray-600 leading-relaxed">Target Chinese audiences on
+              XHS and retarget across messaging channels with unified analytics
+              and campaign management.</p>
+            <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-pink-500/10 text-pink-500 text-xs font-semibold rounded-full">Retargeting</span><span class="px-3 py-1 bg-pink-500/10 text-pink-500 text-xs font-semibold rounded-full">Multi-Channel</span>
+            </div>
+          </div>
+        </div>
+        <div class="mt-16 bg-gradient-to-br from-primary to-secondary rounded-3xl shadow-2xl p-12 text-white">
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h3 class="text-4xl font-black mb-6">Advanced Analytics &amp;
+                Reporting</h3>
+              <p class="text-xl mb-8 text-white/90 leading-relaxed">Track every
+                interaction, measure campaign performance, and optimize your
+                messaging strategy with real-time insights and comprehensive
+                reporting.</p>
+              <ul class="space-y-4">
+                <li class="flex items-center space-x-3"><i class="fa-solid fa-check-circle text-2xl"></i><span class="text-lg">Real-time campaign analytics</span></li>
+                <li class="flex items-center space-x-3"><i class="fa-solid fa-check-circle text-2xl"></i><span class="text-lg">Conversion tracking &amp; attribution</span>
+                </li>
+                <li class="flex items-center space-x-3"><i class="fa-solid fa-check-circle text-2xl"></i><span class="text-lg">XHS integration metrics</span></li>
+                <li class="flex items-center space-x-3"><i class="fa-solid fa-check-circle text-2xl"></i><span class="text-lg">Custom reporting dashboards</span></li>
+              </ul>
+            </div>
+            <div class="h-96 overflow-hidden"><img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/e61d897d58-8bf68fc5c029546974da.png" alt="modern analytics dashboard showing messaging metrics, charts, graphs, conversion funnels, real-time data visualization" class="w-full h-full object-cover rounded-2xl shadow-2xl"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta-strip" class="py-24 bg-gradient-to-br from-dark via-gray-900 to-dark">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-5xl md:text-6xl font-black text-white mb-6 leading-tight">
+          Launch Rich Messaging &amp; Chinese Market Engagement Today</h2>
+        <p class="text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">Transform your
+          customer conversations into conversions with Whispabot's powerful
+          platform and XHS integration</p>
+        <div class="flex flex-wrap justify-center gap-6"><button class="px-10 py-5 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-2xl shadow-primary/30 text-xl group"><i class="fa-solid fa-calendar-check mr-3 group-hover:scale-110 transition-transform inline-block"></i>
+            BOOK A DEMO
+          </button><button class="px-10 py-5 bg-white text-primary font-bold rounded-xl hover:bg-gray-100 transition-all shadow-2xl text-xl group"><i class="fa-solid fa-envelope mr-3 group-hover:scale-110 transition-transform inline-block"></i>
+            CONTACT US
+          </button></div>
+        <div class="mt-12 flex flex-wrap justify-center items-center gap-8 text-gray-400">
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-shield-halved text-green-400 text-xl"></i><span>Enterprise
+              Security</span></div>
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-clock text-blue-400 text-xl"></i><span>24/7
+              Support</span></div>
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-globe text-purple-400 text-xl"></i><span>Global
+              Coverage</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-24 bg-gradient-to-br from-light to-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div>
+            <div class="inline-block px-4 py-2 bg-primary/10 rounded-full mb-6">
+              <span class="text-primary font-semibold">Get In Touch</span></div>
+            <h2 class="text-5xl font-black text-dark mb-6">Ready to Transform
+              Your Customer Engagement?</h2>
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">Our team is
+              ready to help you launch rich messaging campaigns and expand into
+              the Chinese market with Xiaohongshu integration.</p>
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <i class="fa-solid fa-envelope text-primary text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-dark mb-1">Email Us</h4>
+                  <p class="text-gray-600">hello@whispabot.com</p>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <i class="fa-solid fa-phone text-primary text-xl"></i></div>
+                <div>
+                  <h4 class="font-bold text-dark mb-1">Call Us</h4>
+                  <p class="text-gray-600">+1 (555) 123-4567</p>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <i class="fa-solid fa-location-dot text-primary text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-dark mb-1">Visit Us</h4>
+                  <p class="text-gray-600">123 Business Street, Tech City, TC
+                    12345</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-3xl shadow-2xl p-10">
+            <form class="space-y-6">
+              <div><label class="block text-sm font-semibold text-dark mb-2">Full Name
+                  *</label><input type="text" placeholder="John Doe" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors">
+              </div>
+              <div><label class="block text-sm font-semibold text-dark mb-2">Company
+                  Name *</label><input type="text" placeholder="Your Company" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors">
+              </div>
+              <div class="grid md:grid-cols-2 gap-4">
+                <div><label class="block text-sm font-semibold text-dark mb-2">Email
+                    Address *</label><input type="email" placeholder="john@company.com" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors">
+                </div>
+                <div><label class="block text-sm font-semibold text-dark mb-2">Phone
+                    Number</label><input type="tel" placeholder="+1 (555) 000-0000" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors">
+                </div>
+              </div>
+              <div><label class="block text-sm font-semibold text-dark mb-2">Message</label><textarea rows="4" placeholder="Tell us about your needs..." class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors resize-none"></textarea>
+              </div>
+              <div class="flex items-start space-x-3 bg-red-50 border-2 border-xhs/20 rounded-xl p-4">
+                <input type="checkbox" id="xhs-interest" class="w-5 h-5 text-xhs border-2 border-gray-300 rounded focus:ring-xhs mt-0.5"><label for="xhs-interest" class="text-sm text-gray-700"><span class="font-semibold text-dark">I want to run XHS (小红书) ads
+                    / official account for Chinese customers.</span><br><span class="text-xs text-gray-600">Our team will reach out with
+                    specialized XHS onboarding information.</span></label></div>
+              <button type="submit" class="w-full px-8 py-4 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/30 text-lg">
+                Send Message
+                <i class="fa-solid fa-paper-plane ml-2"></i></button>
+              <p class="text-xs text-gray-500 text-center">We'll respond within
+                24 hours on business days</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="py-24 bg-gradient-to-br from-primary/5 to-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-5xl font-black text-dark mb-6">Trusted by Leading
+            Brands</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">See how companies
+            are transforming their customer engagement with Whispabot</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all">
+            <div class="flex items-center space-x-4 mb-6"><img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg" alt="Avatar" class="w-16 h-16 rounded-full object-cover">
+              <div>
+                <h4 class="font-bold text-dark">Sarah Chen</h4>
+                <p class="text-sm text-gray-600">CMO, SkyWings Airlines</p>
+              </div>
+            </div>
+            <div class="flex space-x-1 mb-4"><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i></div>
+            <p class="text-gray-700 leading-relaxed">"Whispabot transformed our
+              check-in process. We've seen a 40% increase in seat upgrade
+              conversions through rich messaging alone. The platform is
+              incredibly intuitive."</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all">
+            <div class="flex items-center space-x-4 mb-6"><img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg" alt="Avatar" class="w-16 h-16 rounded-full object-cover">
+              <div>
+                <h4 class="font-bold text-dark">Michael Zhang</h4>
+                <p class="text-sm text-gray-600">Director of Marketing,
+                  LuxRetail</p>
+              </div>
+            </div>
+            <div class="flex space-x-1 mb-4"><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i></div>
+            <p class="text-gray-700 leading-relaxed">"The XHS integration opened
+              up the entire Chinese market for us. We're now reaching millions
+              of potential customers with targeted campaigns. ROI has been
+              exceptional."</p>
+          </div>
+          <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all">
+            <div class="flex items-center space-x-4 mb-6"><img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-6.jpg" alt="Avatar" class="w-16 h-16 rounded-full object-cover">
+              <div>
+                <h4 class="font-bold text-dark">Emma Rodriguez</h4>
+                <p class="text-sm text-gray-600">VP Product, CloudServe</p>
+              </div>
+            </div>
+            <div class="flex space-x-1 mb-4"><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i><i class="fa-solid fa-star text-yellow-400"></i></div>
+            <p class="text-gray-700 leading-relaxed">"Customer onboarding time
+              reduced by 60%. The automated workflows handle everything
+              seamlessly, and our support team can focus on complex issues. Game
+              changer!"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="bg-dark text-white py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+          <div>
+            <div class="flex items-center space-x-2 mb-6">
+              <div class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+                <i class="fa-solid fa-comments text-white text-xl"></i></div>
+              <span class="text-2xl font-bold">Whispabot</span>
+            </div>
+            <p class="text-gray-400 leading-relaxed mb-6">Turning conversation
+              into conversion through rich business messaging and omni-channel
+              engagement.</p>
+            <div class="flex space-x-4"><a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"><i class="fa-brands fa-twitter"></i></a><a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"><i class="fa-brands fa-facebook-f"></i></a><a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-xhs transition-colors"><i class="fa-brands fa-weixin"></i></a></div>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold mb-6">Product</h4>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Home</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Solutions</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Features</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Pricing</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Integrations</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold mb-6">Company</h4>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">About</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Contact</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Careers</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Blog</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Partners</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold mb-6">Legal</h4>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Privacy
+                  Policy</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Terms
+                  of Service</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Cookie
+                  Policy</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">GDPR</a>
+              </li>
+              <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Security</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8">
+          <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p class="text-gray-400 text-sm">© 2024 Whispabot. All rights
+              reserved.</p>
+            <p class="text-gray-400 text-sm">Supports China-facing engagement
+              via Xiaohongshu (小红书).</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function()
+      {
+        const cards = document.querySelectorAll(
+          '[id^="xhs-card-"], [id^="feature-"], [id^="aviation-card"], [id^="retail-card"], [id^="digital-services-card"]'
+          );
+
+        const observer = new IntersectionObserver((entries) =>
+        {
+          entries.forEach(entry =>
+          {
+            if (entry.isIntersecting)
+            {
+              entry.target.style.opacity = '0';
+              entry.target.style.transform = 'translateY(20px)';
+              setTimeout(() =>
+              {
+                entry.target.style.transition =
+                  'all 0.6s ease-out';
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+              }, 100);
+            }
+          });
+        },
+        {
+          threshold: 0.1
+        });
+
+        cards.forEach(card => observer.observe(card));
+      });
+    </script>
+  
+
+</body></html>
