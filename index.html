@@ -98,69 +98,61 @@
         width: 180px;
       }
 
-      .topnav
-      {
-        overflow: hidden;
-        color: #2563eb;
-
-        width: 100%;
+      /* ===== DEFAULT NAV BAR (mobile) ===== */
+      .topnav {
+        width: 200px;                 /* change to 200px if you want fixed width */
         background-color: #ffffff;
         border-bottom: 1px solid #e5e7eb;
         padding: 10px 16px;
+        position: relative;
+        overflow: hidden;
       }
-
-      .topnav a
-      {
-        float: bottom;
+      
+      .topnav a {
         display: block;
         color: #1E3A8A;
-        text-align: center;
         padding: 12px 16px;
         text-decoration: none;
         font-size: 17px;
-      } 
-
+      }
+      
+      /* Hamburger (hidden on desktop) */
       .topnav .icon {
         display: none;
       }
-
+      
+      /* ===== MOBILE ===== */
       @media screen and (max-width: 600px) {
-        .topnav a:not(:last-child) {display: none;}
-        .topnav a.icon {
+        .topnav a:not(.icon) {
+          display: none;             /* hide menu items */
+        }
+      
+        .topnav .icon {
           display: block;
+          position: absolute;
+          right: 16px;
+          top: 10px;
           border: 2px solid #1E3A8A;
           border-radius: 8px;
-          padding: 10px 14px;
+          padding: 8px 12px;
           cursor: pointer;
-          background: #ffffff;
+          background: #fff;
         }
-      }
       
-      @media screen and (max-width: 600px) {
-        .topnav.responsive {
-          position: relative;
-          padding-top: 150px;
-        }
-        .topnav.responsive .icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
         .topnav.responsive a {
-          float: none;
           display: block;
           text-align: left;
+        }
+      
+        .topnav.responsive {
+          padding-top: 60px;
         }
       }
     </style>
     <script>
       function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
+        const x = document.getElementById("myTopnav");
+        x.classList.toggle("responsive");
       }
     </script>
   </head>
