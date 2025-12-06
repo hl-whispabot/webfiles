@@ -169,6 +169,25 @@
         const x = document.getElementById("myTopnav");
         x.classList.toggle("responsive");
       }
+
+      // Close menu when clicking outside
+      document.addEventListener("click", function (event) {
+        const nav = document.getElementById("myTopnav");
+        const icon = document.querySelector("#myTopnav .icon");
+    
+        // If menu is open AND click is outside the nav AND not the hamburger
+        if (nav.classList.contains("responsive") &&
+            !nav.contains(event.target) &&
+            event.target !== icon) {
+    
+          nav.classList.remove("responsive");
+        }
+      });
+    
+      // Prevent the icon click from closing immediately
+      document.querySelector("#myTopnav .icon").addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
     </script>
   </head>
 
